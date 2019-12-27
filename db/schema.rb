@@ -26,6 +26,7 @@ ActiveRecord::Schema.define(version: 3) do
     t.string "name"
     t.string "price"
     t.integer "size"
+<<<<<<< HEAD
     t.string "image_url"
     t.datetime "created_at"
     t.datetime "updated_at"
@@ -40,6 +41,10 @@ ActiveRecord::Schema.define(version: 3) do
     t.datetime "opening_date"
     t.datetime "closing_date"
     t.string "description"
+=======
+    t.datetime "created_at"
+    t.datetime "update_at"
+>>>>>>> 49c9feca311b027330439c3b88619e4ab221aeae
   end
 
 end
